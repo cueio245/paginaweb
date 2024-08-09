@@ -1,0 +1,60 @@
+body{
+  color: white;
+  background: black;
+  margin: 20px;
+}
+
+header{
+  font-size: 40px;
+  color: blue;
+  border-bottom: solid 2px gray;
+  margin: 20px;
+  padding: 20px;
+  display: relative;
+   font-family: "Danfo", serif;
+}
+
+.inicio{
+  background: red;
+  font-size: 15px;
+  mrgin: 20px;
+  padding: 20px;
+  display: flex;
+   font-family: "Playwrite AR", cursive;
+}
+ 
+.entrada{
+  margin-right: 50px;
+}
+
+.descricao{
+  font-size: 20px;
+  text-align: justify;
+}
+
+img{
+  height: 200px;
+}
+
+.clipes{
+  display:flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.outras{
+   font-family: "Playwrite AR", cursive;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.outras img{
+  opacity: 0.5;
+}
+
+.outras img:hover{
+  opacity: 1.0;
+  border: solid 3px yellow;
+  border-radius: 20px;
+}
